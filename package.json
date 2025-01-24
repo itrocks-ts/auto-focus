@@ -16,19 +16,8 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
-		"carriage return",
-		"auto-focus",
-		"fix",
-		"fixed",
 		"front-end",
-		"it.rocks",
-		"line feed",
-		"line break",
-		"pre",
-		"raw",
-		"style",
-		"text",
-		"white-space"
+		"it.rocks"
 	],
 	"license": "ISC",
 	"module": "./auto-focus.js",
@@ -42,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./auto-focus.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
