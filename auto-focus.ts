@@ -1,7 +1,7 @@
 
 type AnyHTMLInputElement = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
 
-export default function(element: HTMLFormElement)
+export function autoFocus(element: HTMLFormElement)
 {
 	const inputs = Array.from(element.querySelectorAll<AnyHTMLInputElement>('input, select, textarea'))
 		.filter(
