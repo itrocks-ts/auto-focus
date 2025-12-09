@@ -5,8 +5,8 @@
 	},
 	"description": "Sets focus on the first form field within a specified DOM element",
 	"devDependencies": {
-		"@types/node": "^22.9",
-		"typescript": "~5.8"
+		"@types/node": "^24.10",
+		"typescript": "~5.9"
 	},
 	"files": [
 		"LICENSE",
@@ -31,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./auto-focus.d.ts",
-	"version": "0.0.6"
+	"version": "0.0.7"
 }
