@@ -16,8 +16,20 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
+		"a11y",
+		"accessibility",
+		"auto-focus",
+		"autofocus",
+		"dom",
+		"form",
+		"form-ux",
+		"forms",
 		"front-end",
-		"it.rocks"
+		"input",
+		"it.rocks",
+		"login",
+		"modal",
+		"ux"
 	],
 	"license": "ISC",
 	"module": "./auto-focus.js",
@@ -31,5 +43,5 @@
 	},
 	"type": "module",
 	"types": "./auto-focus.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
