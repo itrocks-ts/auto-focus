@@ -5,8 +5,7 @@
 	},
 	"description": "Sets focus on the first form field within a specified DOM element",
 	"devDependencies": {
-		"@types/node": "^24.10",
-		"typescript": "~5.9"
+		"typescript": "^6.0"
 	},
 	"files": [
 		"LICENSE",
@@ -32,7 +31,6 @@
 		"ux"
 	],
 	"license": "ISC",
-	"module": "./auto-focus.js",
 	"name": "@itrocks/auto-focus",
 	"repository": {
 		"type": "git",
@@ -41,7 +39,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"type": "module",
-	"types": "./auto-focus.d.ts",
-	"version": "0.0.8"
+	"version": "0.1.0"
 }
