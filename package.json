@@ -5,7 +5,7 @@
 	},
 	"description": "Sets focus on the first form field within a specified DOM element",
 	"devDependencies": {
-		"typescript": "^6.0"
+		"typescript": "^7.0"
 	},
 	"files": [
 		"LICENSE",
@@ -39,5 +39,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"version": "0.1.0"
+	"version": "0.1.1"
 }
