@@ -8,6 +8,9 @@
 
 Sets focus on the first form field within a specified DOM element.
 
+Add `data-auto-focus="off"` to a form whose first field should not receive focus when it is
+inserted, for example when a page starts with read-only information that must remain visible.
+
 *This documentation was written by an artificial intelligence and may contain errors or approximations.
 It has not yet been fully reviewed by a human. If anything seems unclear or incomplete,
 please feel free to contact the author of this package.*

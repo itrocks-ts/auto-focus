@@ -3,6 +3,7 @@ type AnyHTMLInputElement = HTMLInputElement | HTMLSelectElement | HTMLTextAreaEl
 
 export function autoFocus(element: HTMLFormElement)
 {
+	if (element.dataset.autoFocus === 'off') return
 	const inputs = Array.from(element.querySelectorAll<AnyHTMLInputElement>('input, select, textarea'))
 		.filter(
 			input => {
